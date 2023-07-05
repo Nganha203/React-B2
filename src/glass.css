@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg{
+    background-image: url(../public/glassesImage/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    position: relative;
+}
+.glass-container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(250, 205, 213);
+}
+.glass-item{
+    padding-left: 45px;
+    padding-top: 20px;
+    margin-left: 10px;
+}
+.glass-name{
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.glass-img{
+    width: 160px;
+}
+.model-img{
+    width: 300px;
+}
+.model{
+    padding-top: 30px;
+    padding-left: 350px;
+}
+.selecGlass{
+    width: 150px;
+    height: 60px;
+    position: absolute;
+    top: 19%;
+    left: 38.5%;
+}
